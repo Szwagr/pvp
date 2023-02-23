@@ -1,0 +1,33 @@
+#>> = »
+#<< = «
+#{o} = •
+#{GRACZ} = nazwa gracza
+
+pvp-message:
+  - ' '
+  - '&8>> &8&M----------&f &8[&c&lPvP&8] &8&M----------&f &8<<'
+  - ' &8{o} &7Aby wyłączyć pvp użyj komendy:'
+  - ' &8>> &c/pvp &coff'
+  - ' &8{o} &7Aby włączyć pvp użyj komendy:'
+  - ' &8>> &c/pvp &con'
+  - '&8>> &8&M----------&f &8[&c&lPvP&8] &8&M----------&f &8<<'
+  - ' '
+
+pvp-on:
+  - ' &8[&cPvP&8] &7Uważaj! Masz Włączone &cPvP'
+
+pvp-active:
+  - ' &8[&cPvP&8] &7Masz już włączone &cPvP'
+
+pvp-off:
+  - ' &8[&cPvP&8] &7Wyłączyłeś &aPvP'
+
+pvp-desactive:
+  - ' &8[&cPvP&8] &7Masz juz wyłączone &aPvP'
+
+#   WIADOMOSCI PODCZAS ATAKOWANIA
+pvp-event-attacker-off:
+  - ' &8[&cPvP&8] &e{GRACZ} &7Ma &awyłączone &cPvP'
+
+pvp-event-off:
+  -  ' &8[&cPvP&8] &7Aby móc sie bic z graczami wpisz: &c/pvp on'

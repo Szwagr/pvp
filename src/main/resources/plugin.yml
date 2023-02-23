@@ -1,0 +1,9 @@
+name: PvPOnOff
+version: '${project.version}'
+main: me.szwagru.pvp.pvp
+api-version: 1.19
+authors: [ Szwagru ]
+description: Plugin na Wlaczanie/wylaczanie pvp
+commands:
+  pvp:
+    description: Komenda na wlaczanie/wylaczanie pvp
